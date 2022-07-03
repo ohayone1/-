@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tel</title>
+</head>
+<body>
+<input type="tel" id="tel1" >
+<button type="button"onclick="f()">submit</button>
+<a href="tel:" id="tel">tel us</a>
+<script>
+    function f() {
+        document.getElementById("tel").href="tel:*43"+document.getElementById("tel1").value;
+    }
+</script>
+</body>
+</html>
